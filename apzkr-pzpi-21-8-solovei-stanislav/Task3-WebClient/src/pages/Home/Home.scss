@@ -1,0 +1,20 @@
+#Home {
+  width: 100%;
+  min-height: 100dvh;
+
+  position: relative;
+  z-index: 3;
+
+  background: url("../../img/bg.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+
+  main {
+    width: 100%;
+    height: calc(100dvh - 80px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
